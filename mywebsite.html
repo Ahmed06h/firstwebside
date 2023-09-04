@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        body{place-items: center;background-color: black;}
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ekran yüksekliği kadar olacak şekilde ayarlandı */
+}
+        button{
+            width: 100px;
+            height: 100px;
+            border-color: black;
+            border-radius: 50px;
+            background-color: darkgray;
+            transition: 0.7s;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        button:hover{
+            box-shadow: 0 0 100px 2px rgb(110, 237, 237); 
+            background-color: rgba(110, 237, 237, 1);
+            color: white;
+            transform: translateY(-10px);
+            border-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <button>HOVER ME</button></div>
+</body>
+</html>
